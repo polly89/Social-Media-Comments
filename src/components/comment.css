@@ -1,0 +1,23 @@
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
+.comment-list .comment {
+    background-color: rgb(240, 242, 245);
+    margin: 5px 10px;
+    margin-right: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.comment-list .comment .author {
+    font-weight: bold;
+}
+.comment-list .comment.by-user {
+    background-color: rgb(207, 225, 252);
+    margin-left: 30%;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-end;
+    min-width: 25%;
+}
